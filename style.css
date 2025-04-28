@@ -1,18 +1,23 @@
 /* General Styles */
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
     background-color: #2c3e50;
     color: white;
 }
 
 header {
     background-color: #1abc9c;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -21,27 +26,29 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .logo-container img {
-    height: 50px;
+    height: 60px;
 }
 
-h1, h2 {
+h1, h2, p {
     color: #ecf0f1;
 }
 
 /* Section Styles */
 section {
-    padding: 20px;
+    padding: 60px 20px;
     text-align: center;
+    min-height: 400px;
 }
 
 #home {
@@ -63,14 +70,21 @@ section {
 .join-btn {
     background-color: #ecf0f1;
     color: #34495e;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s;
 }
 
+.join-btn:hover {
+    background-color: #bdc3c7;
+}
+
+/* Footer Styles */
 footer {
     background-color: #2c3e50;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
