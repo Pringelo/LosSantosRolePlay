@@ -4,133 +4,309 @@
 
 body {
   font-size: 14px;
-  font-family: 'Outfit', sans-serif;
   margin: 0;
-  background-color: #f0f0f0;
+  padding: 0;
 }
 
-.container {
+.v1_2 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(0, 0, 0, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.v4_8 {
   width: 100%;
   height: 100%;
-  background-color: #003366; /* Niebieski tło */
-  color: #ffffff;
+  background: url("../images/v4_8.png") center/cover no-repeat;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
 
-.header {
+.v3_4070 {
   width: 100%;
   height: 80px;
-  background-color: #003366;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 50px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px 120px;
+  margin: 300px 0 0 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
 
-.menu {
-  display: flex;
-  gap: 20px;
+.v3_4151 {
+  width: 301px;
+  height: 18px;
+  background: url("../images/v3_4151.png") center/cover no-repeat;
+  opacity: 1;
+  position: absolute;
+  top: 31px;
+  left: 560px;
+  overflow: hidden;
 }
 
-.menu-item {
-  color: #f4c542; /* Żółty tekst */
+.v3_4139, .v3_4137, .v3_4131, .v3_4133 {
+  font-family: Outfit, sans-serif;
   font-weight: bold;
-  cursor: pointer;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
 }
 
-.discord {
-  background-color: #f4c542;
-  border-radius: 20px;
-  padding: 10px 20px;
+.v3_4139 {
+  left: 265px;
 }
 
-.discord-text {
-  color: #003366;
+.v3_4137 {
+  left: 201px;
+}
+
+.v3_4131 {
+  left: 0;
+  color: rgba(224, 177, 25, 1);
+}
+
+.v3_4133 {
+  left: 69px;
+}
+
+.v3_4144 {
+  width: 160px;
+  height: 40px;
+  background: rgba(224, 177, 25, 1);
+  border-radius: 37px;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 1089px;
+  overflow: hidden;
+}
+
+.v3_4150 {
+  width: 64px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Outfit, sans-serif;
   font-weight: bold;
-  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 48px;
+  text-align: left;
 }
 
-.logo {
-  height: 60px;
-  object-fit: contain;
+.v4_9 {
+  width: 139px;
+  color: rgba(224, 177, 25, 1);
+  font-family: Outfit, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 193px;
+  text-align: left;
 }
 
-.info {
-  padding: 50px 100px;
-  text-align: center;
+.v4_29 {
+  width: 519px;
+  height: 188px;
+  background: url("../images/v4_29.png") center/cover no-repeat;
+  opacity: 1;
+  position: absolute;
+  top: 324px;
+  left: 740px;
+  overflow: hidden;
 }
 
-.server-name {
+.v3_4154 {
+  width: 519px;
+  color: rgba(224, 177, 25, 1);
+  font-family: Outfit, sans-serif;
+  font-weight: black;
   font-size: 40px;
-  color: #f4c542;
-  font-weight: bold;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
 }
 
-.server-description {
-  font-size: 18px;
-  color: #cccccc;
+.v3_4167 {
+  width: 515px;
+  color: rgba(221, 221, 221, 1);
+  font-family: Outfit, sans-serif;
+  font-weight: regular;
+  font-size: 15px;
+  opacity: 1;
+  position: absolute;
+  top: 112px;
+  left: 0;
+  text-align: left;
 }
 
-.server-status {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 100px;
+.v4_27, .v4_28 {
+  width: 250px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 531px;
+  overflow: hidden;
 }
 
-.server-status-bar {
-  background-color: #003366;
-  color: #f4c542;
-  padding: 10px 20px;
+.v3_4177, .v3_4178 {
+  width: 250px;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
 
-.status {
+.v3_4174 {
+  width: 81px;
+  color: rgba(224, 177, 25, 1);
+  position: absolute;
+  top: 25px;
+  left: 116px;
+  font-family: Outfit, sans-serif;
   font-weight: bold;
+  opacity: 1;
+  text-align: left;
 }
 
-.server-details {
-  display: flex;
-  align-items: center;
-}
-
-.server-icon {
-  background-color: #f4c542;
+.v3_5924 {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  margin-right: 15px;
+  background: url("../images/v3_5924.png") center/cover no-repeat;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 54px;
+  overflow: hidden;
 }
 
-.server-address {
-  display: flex;
-  flex-direction: column;
+.v3_5925, .v3_5926 {
+  border: 4px solid rgba(255, 255, 255, 1);
 }
 
-.address {
-  color: #f4c542;
+.v3_5925 {
+  width: 31px;
+  height: 12px;
+  background: url("../images/v3_5925.png");
+  opacity: 1;
+  position: absolute;
+  top: 31px;
+  left: 2px;
+}
+
+.v3_5926 {
+  width: 16px;
+  height: 16px;
+  background: url("../images/v3_5926.png");
+  opacity: 1;
+  position: absolute;
+  top: 6px;
+  left: 9px;
+}
+
+.v4_5 {
+  width: 52px;
+  height: 52px;
+  background: url("../images/v4_5.png") center/cover no-repeat;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  overflow: hidden;
+}
+
+.v4_6 {
+  width: 43px;
+  height: 34px;
+  background: url("../images/v4_6.png");
+  border: 3px solid rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 8px;
+  left: 4px;
+}
+
+.v4_4 {
+  width: 149px;
+  color: rgba(224, 177, 25, 1);
+  font-family: Outfit, sans-serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 39px;
+  left: 84px;
+  text-align: left;
 }
 
-.server-type {
-  color: #ffffff;
-  font-size: 14px;
-}
-
-.download {
-  text-align: center;
-  padding: 50px 0;
-}
-
-.download-button {
-  background-color: #f4c542;
-  color: #003366;
+.v4_7 {
+  width: 97px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Outfit, sans-serif;
   font-weight: bold;
-  font-size: 18px;
-  padding: 15px 30px;
-  border-radius: 5px;
-  cursor: pointer;
+  font-size: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 19px;
+  left: 84px;
+  text-align: left;
 }
 
-.download-button:hover {
-  background-color: #e0b22f;
+.v4_30 {
+  width: 513px;
+  height: 50px;
+  background: url("../images/v4_30.png") center/cover no-repeat;
+  opacity: 1;
+  position: absolute;
+  top: 629px;
+  left: 742px;
+  overflow: hidden;
+}
+
+.v4_31 {
+  width: 513px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.v4_35 {
+  width: 125px;
+  color: rgba(224, 177, 25, 1);
+  font-family: Outfit, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 194px;
+  text-align: left;
 }
