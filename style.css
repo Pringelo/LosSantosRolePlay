@@ -30,7 +30,7 @@ header {
     position: relative;
     padding: 40px 0;
     background-color: linear-gradient(to bottom right, #312511, rgb(14, 38, 54), rgb(14, 38, 54), #312511, #312511);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease;
 }
 
