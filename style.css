@@ -37,10 +37,10 @@ header {
 nav {
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     left: 0;
-    padding: 35%;
+    padding: 20%;
     z-index: 2;
 }
 
@@ -69,7 +69,7 @@ nav ul li a:hover {
 .logo-container {
     position: absolute;
     top: 55%;
-    left: 50%;
+    left: 2.5%;
     transform: translate(-50%, -50%);
     z-index: 10;  /* Ensure the logo is on top */
 }
@@ -124,6 +124,18 @@ section {
     font-size: 1.6rem;
     margin-bottom: 20px;
     animation: slideIn 1s ease-out;
+}
+
+#home .photo-container img {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-left: 6px solid #070abb;
+
 }
 
 .btn, .join-btn {
